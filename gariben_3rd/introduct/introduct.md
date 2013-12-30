@@ -23,10 +23,24 @@
 でじこちゃんかわいいガチ勢です<br>ご確認ください。
 
 !SLIDE
+<center>
+<blockquote class="twitter-tweet" lang="ja"><p>ガリ勉でScalaの話したいんで、旅費ください</p>&mdash; numa (@numa08) <a href="https://twitter.com/numa08/statuses/412245185641197572">2013, 12月 15</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet" lang="ja"><p><a href="https://twitter.com/numa08">@numa08</a> おおまかでいいので登壇内容お願いします～</p>&mdash; がりっち✨X240 (@garicchi) <a href="https://twitter.com/garicchi/statuses/412573911587377154">2013, 12月 16</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet" lang="ja"><p><a href="https://twitter.com/garicchi">@garicchi</a> 「Scalaのはなし」としておいてください</p>&mdash; numa (@numa08) <a href="https://twitter.com/numa08/statuses/412592395406958592">2013, 12月 16</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+</center>
 
-ぶっちゃけ１０分くらいのLTやろーと思ってた
+!SLIDE
 
-実態は、９０分だった・・・
+<center>
+<img alt="" src="introduct/ss1.png" width="40%" height="40%">
+</center>
+
+ふぁっ！？５０分！？
+
+LT枠じゃないの！？
 
 !SLIDE
 
