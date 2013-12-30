@@ -33,3 +33,31 @@
 ## 今年も
 ## よろしく
 ## お願いしまScala
+
+!SLIDE
+
+プログラミング言語Scalaの紹介と、
+
+Scalaを学ぶこと、利用することのメリットを
+
+10本のLTを通してお話します。
+
+!SLIDE
+
+## アジェンダ
+
+   * 自己紹介
+   * Scalaの紹介
+   * Scalaとデータ構造
+   * ScalaとIO
+   * Scalaと制御構文
+
+!SLIDE
+
+## アジェンダ
+
+   * ライブコーディング
+   * Scalaと開発環境
+   * Scalaとフレームワーク
+   * ScalaとAndroid
+   * これからのScala
