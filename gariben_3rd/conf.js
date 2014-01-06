@@ -4,6 +4,7 @@
     "introduct",
     "what_scala",
     "data_structure"
-    "io"
+    "io",
+    "controll_structure"
   ]
 }
