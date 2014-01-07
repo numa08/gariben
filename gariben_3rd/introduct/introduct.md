@@ -61,10 +61,11 @@ Scalaを学ぶこと、利用することのメリットを
 ## アジェンダ
 
    * 自己紹介
+   * なぜScalaなのか
    * Scalaの紹介
-   * Scalaとデータ構造
-   * ScalaとIO
-   * Scalaと制御構文
+   * Scalaでできること
+   * あなたとScala
+   * Scalaことはじめ
 
 !SLIDE
 
