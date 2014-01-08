@@ -5,6 +5,7 @@
     "why_scala"
     "what_scala",
     "what_able_to",
+    "first_scala"
     "controll_structure"
   ]
 }
