@@ -54,6 +54,15 @@ Scalaスケーラブルプログラミング第2版
  - 通称「コップ」本
  - Scalaの全てを知りたいならこれ
  - 最初に読む本じゃないかな
+!SLIDE
+
+Play Framework 2徹底入門
+
+<iframe src="http://rcm-fe.amazon-adsystem.com/e/cm?lt1=_blank&bc1=000000&IS2=1&bg1=FFFFFF&fc1=000000&lc1=0000FF&t=numa08blog01-22&o=9&p=8&l=as4&m=amazon&f=ifr&ref=ss_til&asins=B00HFPZ0DA" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0"></iframe>
+
+ - JavaのPlayframeworkの本
+ - テンプレートエンジン、ビルドツールとかScalaでも役立つ
+ - 現在唯一ｎPlay関連の和書
 
 !SLIDE
 
