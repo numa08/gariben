@@ -40,7 +40,12 @@
 
 ## サーバーサイドのScala
  
- - [ScalaでDSPを作ってみた](http://www.slideshare.net/JiroHiraiwa/scaladsp)
+ <iframe src="http://www.slideshare.net/slideshow/embed_code/29072456" width="427" height="356" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC;border-width:1px 1px 0;margin-bottom:5px" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="https://www.slideshare.net/JiroHiraiwa/scaladsp" title="ScalaでDSP作ってみた" target="_blank">ScalaでDSP作ってみた</a> </strong> from <strong><a href="http://www.slideshare.net/JiroHiraiwa" target="_blank">Jiro Hiraiwa</a></strong> </div>
+
+!SLIDE
+
+## サーバーサイドのScala
+
  - [numa08.net](http://numa08.net)
  - twitter,fourcquareの採用実績など
  - ググると結構出る
