@@ -64,7 +64,6 @@ Scalaを学ぶこと、利用することのメリットを
    * なぜScalaなのか
    * Scalaの紹介
    * Scalaでできること
-   * あなたとScala
    * Scalaことはじめ
 
 !SLIDE
