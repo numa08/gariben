@@ -5,7 +5,8 @@
     "why_scala"
     "what_scala",
     "what_able_to",
-    "first_scala"
+    "first_scala",
+    "livecoding",
     "controll_structure"
   ]
 }
