@@ -111,4 +111,5 @@ val dejiko = new Kawaii {
 
 #ライブコーディング
 
-!SLIDE	
+!SLIDE
+	
