@@ -1,0 +1,433 @@
+<html>
+      <head>
+        <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+        <title>gariben_3rd</title>
+        <link type="text/css" rel="stylesheet" href="assets/css/show.css" />
+        <link type="text/css" rel="stylesheet" href="assets/css/prettify.css" />
+        <script type="text/javascript" src="assets/js/jquery.min.js"></script>
+        <script type="text/javascript" src="assets/js/show.js"></script>
+        <script type="text/javascript" src="assets/js/prettify/prettify.js"></script>
+        <script type="text/javascript" src="assets/js/prettify/lang-apollo.js"></script><script type="text/javascript" src="assets/js/prettify/lang-css.js"></script><script type="text/javascript" src="assets/js/prettify/lang-hs.js"></script><script type="text/javascript" src="assets/js/prettify/lang-lisp.js"></script><script type="text/javascript" src="assets/js/prettify/lang-lua.js"></script><script type="text/javascript" src="assets/js/prettify/lang-ml.js"></script><script type="text/javascript" src="assets/js/prettify/lang-proto.js"></script><script type="text/javascript" src="assets/js/prettify/lang-scala.js"></script><script type="text/javascript" src="assets/js/prettify/lang-sql.js"></script><script type="text/javascript" src="assets/js/prettify/lang-sql.js"></script><script type="text/javascript" src="assets/js/prettify/lang-vb.js"></script><script type="text/javascript" src="assets/js/prettify/lang-vhdl.js"></script><script type="text/javascript" src="assets/js/prettify/lang-wiki.js"></script><script type="text/javascript" src="assets/js/prettify/lang-yaml.js"></script><link type="text/css" rel="stylesheet" href="css/custom.css?1389425125858" />
+      <script type="text/javascript"><!--
+        window.onload=function() { prettyPrint(); };
+      --></script>
+      </head>
+      <body>
+        <div id="slides">
+          <div id="reel">
+            <div class="content" id="slide-0"><div class="container">
+                  <h2 id=""><a  href="http://atnd.org/events/46433">【第3回】がりっち勉強会 in 関西</a></h2>
+                </div>
+      </div><div class="content" id="slide-1"><div class="container">
+                  <p>なんか、がりっちにScalaの話しろって言われたので<br>やります。
+</p>
+                </div>
+      </div><div class="content" id="slide-2"><div class="container">
+                  <h2 id="%E8%87%AA%E5%B7%B1%E7%B4%B9%E4%BB%8B">自己紹介</h2><ul><li><a  href="https://twitter.com/numa08">@numa08</a>
+</li><li>主にスマホのお仕事やってます
+</li><li>Scalaの勉強会やってます
+</li><li><a  href="http://www.zusaar.com/event/2527004">新宿Scala座 １月号</a>
+</li></ul>
+                </div>
+      </div><div class="content" id="slide-3"><div class="container">
+                  <p><img alt=""  src="https://pbs.twimg.com/profile_images/3515963822/d170450067e57d83a38969c61f2d0864.jpeg" />
+<img alt=""  src="https://pbs.twimg.com/profile_images/378800000364700845/3b5c786d62e10cdb369d4cb1459f4d4b.jpeg" />
+</p><p>でじこちゃんかわいいガチ勢です<br>ご確認ください。
+</p>
+                </div>
+      </div><div class="content" id="slide-4"><div class="container">
+                  <center>
+<blockquote class="twitter-tweet" lang="ja"><p>ガリ勉でScalaの話したいんで、旅費ください</p>&mdash; numa (@numa08) <a href="https://twitter.com/numa08/statuses/412245185641197572">2013, 12月 15</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet" lang="ja"><p><a href="https://twitter.com/numa08">@numa08</a> おおまかでいいので登壇内容お願いします～</p>&mdash; がりっち✨X240 (@garicchi) <a href="https://twitter.com/garicchi/statuses/412573911587377154">2013, 12月 16</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet" lang="ja"><p><a href="https://twitter.com/garicchi">@garicchi</a> 「Scalaのはなし」としておいてください</p>&mdash; numa (@numa08) <a href="https://twitter.com/numa08/statuses/412592395406958592">2013, 12月 16</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+</center>
+
+                </div>
+      </div><div class="content" id="slide-5"><div class="container">
+                  <center>
+<img alt="" src="introduct/ss1.png" width="40%" height="40%">
+</center>
+<p>ふぁっ！？５０分！？
+</p><p>LT枠じゃないの！？
+</p>
+                </div>
+      </div><div class="content" id="slide-6"><div class="container">
+                  <h2 id="%E4%BB%8A%E5%B9%B4%E3%82%82">今年も</h2><h2 id="%E3%82%88%E3%82%8D%E3%81%97%E3%81%8F">よろしく</h2><h2 id="%E3%81%8A%E9%A1%98%E3%81%84%E3%81%97%E3%81%BEScala">お願いしまScala</h2>
+                </div>
+      </div><div class="content" id="slide-7"><div class="container">
+                  <p>プログラミング言語Scalaの紹介と、
+</p><p>Scalaを学ぶこと、利用することのメリットを
+</p><p>などをお話します。
+</p>
+                </div>
+      </div><div class="content" id="slide-8"><div class="container">
+                  <h2 id="%E3%82%A2%E3%82%B8%E3%82%A7%E3%83%B3%E3%83%80">アジェンダ</h2><ul><li>自己紹介
+</li><li>なぜScalaなのか
+</li><li>Scalaの紹介
+</li><li>Scalaでできること
+</li><li>Scalaことはじめ
+</li></ul>
+                </div>
+      </div><div class="content" id="slide-9"><div class="container">
+                  <h2 id="%E3%82%A2%E3%82%B8%E3%82%A7%E3%83%B3%E3%83%80">アジェンダ</h2><ul><li>ScalaとAndroid
+</li><li>ライブコーディング</li></ul>
+                </div>
+      </div><div class="content" id="slide-10"><div class="container">
+                  <h1 id="%E3%81%AA%E3%81%9CScala%E3%81%AA%E3%81%AE%E3%81%8B%EF%BC%9F">なぜScalaなのか？</h1>
+                </div>
+      </div><div class="content" id="slide-11"><div class="container">
+                  <h1 id="%E3%81%AA%E3%81%9C%E9%96%A2%E6%95%B0%E5%9E%8B%E8%A8%80%E8%AA%9E%E3%82%92%E5%AD%A6%E3%81%B6%E3%81%AE%EF%BC%9F">なぜ関数型言語を学ぶの？</h1>
+                </div>
+      </div><div class="content" id="slide-12"><div class="container">
+                  <h1 id="2%E3%81%A4%E3%81%AE%E3%81%AA%E3%81%9C%EF%BC%9F">2つのなぜ？</h1><ul><li>なぜ関数型言語を学ぶ？
+</li><li>なぜScala学ぶ？
+</li></ul><p> １つずつ説明します。</p>
+                </div>
+      </div><div class="content" id="slide-13"><div class="container">
+                  <h2 id="%E3%81%AA%E3%81%9C%E9%96%A2%E6%95%B0%E5%9E%8B%E8%A8%80%E8%AA%9E%E3%81%AA%E3%81%AE%EF%BC%9F">なぜ関数型言語なの？</h2><ul><li>「手続き型言語」とは大きく異るパラダイム
+</li><li><p>「手続き型言語」への導入
+</p><ul><li>LINQ(C#)
+</li><li>Lambda(Java8)
+</li><li>Blocks(C,Objective-C)
+</li></ul></li><li>書いてて気持ちいい
+</li></ul>
+                </div>
+      </div><div class="content" id="slide-14"><div class="container">
+                  <h2 id="%E3%81%AA%E3%82%93%E3%81%A7%E9%96%A2%E6%95%B0%E5%9E%8B%E8%A8%80%E8%AA%9E%E3%81%AA%E3%81%AE%EF%BC%9F">なんで関数型言語なの？</h2><ul><li><p>副作用が無い
+</p><ul><li>非同期処理も怖くない
+</li><li>多人数開発も怖くない
+</li></ul></li><li><p>独自のデータ構造、処理
+</p><ul><li>複雑な処理を完結に
+</li></ul></li><li>書いてて気持ちいい
+</li></ul>
+                </div>
+      </div><div class="content" id="slide-15"><div class="container">
+                  <h2 id="%E3%81%AA%E3%81%9CScala%E3%81%AA%E3%81%AE%EF%BC%9F">なぜScalaなの？</h2>
+                </div>
+      </div><div class="content" id="slide-16"><div class="container">
+                  <h2 id="%E3%81%AA%E3%81%9CScala%E3%81%AA%E3%81%AE%EF%BC%9F">なぜScalaなの？</h2><ul><li><p>better Javaの側面
+</p><ul><li>ある程度低い学習コスト
+</li><li>はじめての関数型言語として
+</li></ul></li><li><p>JVM言語
+</p><ul><li>これから先の実用性
+</li></ul></li><li>書いてて気持ちいい
+</li></ul>
+                </div>
+      </div><div class="content" id="slide-17"><div class="container">
+                  <h1 id="%E3%81%BE%E3%81%A8%E3%82%81">まとめ</h1><ul><li><p>なぜ言語を学ぶのか？
+</p><ul><li>明日のために
+</li></ul></li><li><p>なぜ関数型言語なのか
+</p><ul><li>これから期待される
+</li></ul></li><li><p>なぜScalaなのか？
+</p><ul><li>こらから来る
+</li></ul></li></ul>
+                </div>
+      </div><div class="content" id="slide-18"><div class="container">
+                  <h1 id="%E6%9B%B8%E3%81%84%E3%81%A6%E3%81%A6%E6%B0%97%E6%8C%81%E3%81%A1%E3%81%84%E3%81%84">書いてて気持ちいい</h1>
+                </div>
+      </div><div class="content" id="slide-19"><div class="container">
+                  <h1 id="Scala%E3%81%AE%E7%B4%B9%E4%BB%8B">Scalaの紹介</h1>
+                </div>
+      </div><div class="content" id="slide-20"><div class="container">
+                  <h2 id="Scala%E3%81%AE%E7%B4%B9%E4%BB%8B">Scalaの紹介</h2><ul><li>どういう言語なの？
+</li><li>どういうところで使うの？
+</li><li>どういう人におすすめ？
+</li></ul>
+                </div>
+      </div><div class="content" id="slide-21"><div class="container">
+                  <h2 id="%E3%81%A9%E3%81%86%E3%81%84%E3%81%86%E8%A8%80%E8%AA%9E%E3%81%AA%E3%81%AE%EF%BC%9F">どういう言語なの？</h2><ul><li>関数型言語
+</li><li>クラスベースのオブジェクト指向
+</li><li>JVMで動く
+</li></ul>
+                </div>
+      </div><div class="content" id="slide-22"><div class="container">
+                  <h2 id="%E3%81%A9%E3%81%86%E3%81%84%E3%81%86%E8%A8%80%E8%AA%9E%E3%81%AA%E3%81%AE%EF%BC%9F">どういう言語なの？</h2><ul><li>Javaがつらいと思った人に人気です
+</li><li>ちなみに開発者はJavaのジェネリクスの開発者です
+</li><li>そう、Better Java
+</li></ul>
+                </div>
+      </div><div class="content" id="slide-23"><div class="container">
+                  <h2 id="%E3%81%A9%E3%81%86%E3%81%84%E3%81%86%E3%81%A8%E3%81%93%E3%82%8D%E3%81%A7%E4%BD%BF%E3%81%86%E3%81%AE%EF%BC%9F">どういうところで使うの？</h2><ul><li>ScalaとはScalable languageに由来する言葉
+</li><li>小さなものから大きなものまで
+</li><li>幅広く使えます
+</li></ul>
+                </div>
+      </div><div class="content" id="slide-24"><div class="container">
+                  <h2 id="%E5%B0%8F%E3%81%95%E3%81%AAScala">小さなScala</h2><ul><li><p>スクリプト言語としてのScala
+</p><ul><li>Ruby、Perlのように、スクリプトっぽく実行できる
+</li></ul></li><li>文字列操作も強いので、簡単なスクリプトもすぐ書ける
+</li><li>標準I/Oもらくらく
+</li></ul>
+                </div>
+      </div><div class="content" id="slide-25"><div class="container">
+                  <h2 id="%E5%A4%A7%E3%81%8D%E3%81%AAScala">大きなScala</h2><ul><li><p>コンパイラ言語としてのScala
+</p><ul><li>Javaのバイトコードを吐き出します
+</li></ul></li><li><p>クラスベースのオブジェクト指向
+</p><ul><li>大規模開発
+</li></ul></li><li>強力なビルドツール
+</li><li>フレームワークの提供
+</li></ul>
+                </div>
+      </div><div class="content" id="slide-26"><div class="container">
+                  <h2 id="%E3%81%A9%E3%81%86%E3%81%84%E3%81%86%E4%BA%BA%E3%81%AB%E3%81%8A%E3%81%99%E3%81%99%E3%82%81%EF%BC%9F">どういう人におすすめ？</h2><ul><li>プログラマも
+</li><li>マネージャーも
+</li></ul>
+                </div>
+      </div><div class="content" id="slide-27"><div class="container">
+                  <h2 id="%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9E%E3%81%AE%E3%81%9F%E3%82%81%E3%81%AEScala">プログラマのためのScala</h2><ul><li>プログラマなら取っ付き易い文法
+</li><li>初めての関数型言語として
+</li><li>ここから初める関数型言語
+</li></ul>
+                </div>
+      </div><div class="content" id="slide-28"><div class="container">
+                  <h2 id="%E4%B8%8A%E6%B5%81%E5%B7%A5%E7%A8%8B%E3%81%A8Scala">上流工程とScala</h2><ul><li>関数型言語の台頭で、システムの設計に変化がくる
+</li><li>その時になって慌てないために
+</li><li>Java8がくるぞぉ・・・
+</li></ul>
+                </div>
+      </div><div class="content" id="slide-29"><div class="container">
+                  <h1 id="%E3%81%84%E3%81%A4%E3%81%AF%E3%81%98%E3%82%81%E3%82%8B%E3%81%AE%EF%BC%9F">いつはじめるの？</h1>
+                </div>
+      </div><div class="content" id="slide-30"><div class="container">
+                  <center><img src="what_scala/ima.png" alt=""></center>
+                </div>
+      </div><div class="content" id="slide-31"><div class="container">
+                  <h1 id="Scala%E3%81%AB%E3%81%A7%E3%81%8D%E3%82%8B%E3%81%93%E3%81%A8">Scalaにできること</h1>
+                </div>
+      </div><div class="content" id="slide-32"><div class="container">
+                  <h2 id="%E3%81%93%E3%81%AE%E4%B8%96%E7%95%8C%E3%82%92%E5%8F%96%E3%82%8A%E5%9B%B2%E3%82%80Scala">この世界を取り囲むScala</h2><ul><li>サーバーサイドでの採用実績が増えつつある
+</li><li>バッチとかならすぐ作れる
+</li><li>デーモン化も余裕
+</li><li>このスライドもScalaのツール
+</li></ul>
+                </div>
+      </div><div class="content" id="slide-33"><div class="container">
+                  <h2 id="%E3%81%93%E3%82%93%E3%81%AA%E3%81%A8%E3%81%93%E3%82%8D%E3%81%ABScala%E3%81%8C">こんなところにScalaが</h2><ul><li>サーバーサイドのScala
+</li><li>ツールとしてのScala
+</li></ul>
+                </div>
+      </div><div class="content" id="slide-34"><div class="container">
+                  <h2 id="%E3%82%B5%E3%83%BC%E3%83%90%E3%83%BC%E3%82%B5%E3%82%A4%E3%83%89%E3%81%AEScala">サーバーサイドのScala</h2><center>
+<img src="http://www.playframework.com/assets/images/logos/normal.png">
+</center>
+
+                </div>
+      </div><div class="content" id="slide-35"><div class="container">
+                  <h2 id="%E3%82%B5%E3%83%BC%E3%83%90%E3%83%BC%E3%82%B5%E3%82%A4%E3%83%89%E3%81%AEScala">サーバーサイドのScala</h2><ul><li><a  href="http://www.playframework.com/">Playframework</a>
+</li><li>フルスタックフレームワーク
+</li><li>Javaのフレームワーク（だった）
+</li><li>2.xからScalaを本格サポート
+</li><li>今や立場逆転・・・
+</li></ul>
+                </div>
+      </div><div class="content" id="slide-36"><div class="container">
+                  <h2 id="%E3%82%B5%E3%83%BC%E3%83%90%E3%83%BC%E3%82%B5%E3%82%A4%E3%83%89%E3%81%AEScala">サーバーサイドのScala</h2> <iframe src="http://www.slideshare.net/slideshow/embed_code/29072456" width="427" height="356" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC;border-width:1px 1px 0;margin-bottom:5px" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="https://www.slideshare.net/JiroHiraiwa/scaladsp" title="ScalaでDSP作ってみた" target="_blank">ScalaでDSP作ってみた</a> </strong> from <strong><a href="http://www.slideshare.net/JiroHiraiwa" target="_blank">Jiro Hiraiwa</a></strong> </div>
+
+                </div>
+      </div><div class="content" id="slide-37"><div class="container">
+                  <h2 id="%E3%82%B5%E3%83%BC%E3%83%90%E3%83%BC%E3%82%B5%E3%82%A4%E3%83%89%E3%81%AEScala">サーバーサイドのScala</h2><ul><li><a  href="http://numa08.net">numa08.net</a>
+</li><li>twitter,fourcquareの採用実績など
+</li><li>ググると結構出る
+</li></ul>
+                </div>
+      </div><div class="content" id="slide-38"><div class="container">
+                  <h2 id="%E3%83%84%E3%83%BC%E3%83%AB%E3%81%A8%E3%81%97%E3%81%A6%E3%81%AEScala">ツールとしてのScala</h2><ul><li><a  href="https://github.com/n8han/conscript">conscript</a>
+</li><li>Scala製のツールのインストールができる
+</li><li>Scalaでツールを作れる
+</li></ul>
+                </div>
+      </div><div class="content" id="slide-39"><div class="container">
+                  <h2 id="%E3%83%84%E3%83%BC%E3%83%AB%E3%81%A8%E3%81%97%E3%81%A6%E3%81%AEScala">ツールとしてのScala</h2><ul><li><p><a  href="https://github.com/softprops/picture-show">pciture show</a>
+</p><ul><li>スライドを作るやつ
+</li></ul></li><li><p><a  href="https://github.com/n8han/giter8">giter8</a>
+</p><ul><li>Scalaのプロジェクトのひな形を作るやつ
+</li></ul></li><li><p><a  href="https://github.com/numa08/halley">halley</a>
+</p><ul><li>某所から画像をダウンロードするツール
+</li></ul></li></ul>
+                </div>
+      </div><div class="content" id="slide-40"><div class="container">
+                  <h2 id="%E3%81%BE%E3%81%A8%E3%82%81">まとめ</h2><ul><li>Scalaはサーバーサイドでも使える
+</li><li>Scalaはツールとしても使える
+</li><li>ツールを作るためのツールも結構整ってる</li></ul>
+                </div>
+      </div><div class="content" id="slide-41"><div class="container">
+                  <h1 id="Scala%E4%BA%8B%E5%A7%8B%E3%82%81">Scala事始め</h1>
+                </div>
+      </div><div class="content" id="slide-42"><div class="container">
+                  <h2 id="Scala%E4%BA%8B%E5%A7%8B%E3%82%81">Scala事始め</h2><ul><li>読むといい本
+</li><li>揃えると良いツール
+</li><li>あとなんか
+</li></ul>
+                </div>
+      </div><div class="content" id="slide-43"><div class="container">
+                  <h2 id="%E8%AA%AD%E3%82%80%E3%81%A8%E3%81%84%E3%81%84%E6%9C%AC">読むといい本</h2>
+                </div>
+      </div><div class="content" id="slide-44"><div class="container">
+                  <p>Guide to ScalaーScalaプログラミング入門
+</p><iframe src="http://rcm-fe.amazon-adsystem.com/e/cm?t=numa08blog01-22&o=9&p=8&l=as1&asins=B00BOBYZTQ&ref=tf_til&fc1=000000&IS2=1&lt1=_blank&m=amazon&lc1=0000FF&bc1=000000&bg1=FFFFFF&f=ifr" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0"></iframe>
+<ul><li>kindleで１００円のやつ
+</li><li>初めてScalaを触るのにちょうどいい内容
+</li><li>ｻｸｯと参照するのに便利
+</li></ul>
+                </div>
+      </div><div class="content" id="slide-45"><div class="container">
+                  <p>オブジェクト指向プログラマが次に読む本　-Scalaで学ぶ関数脳入門
+</p><iframe src="http://rcm-fe.amazon-adsystem.com/e/cm?lt1=_blank&bc1=000000&IS2=1&bg1=FFFFFF&fc1=000000&lc1=0000FF&t=numa08blog01-22&o=9&p=8&l=as1&m=amazon&f=ifr&ref=tf_til&asins=4774144363" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0"></iframe>
+<ul><li>Javaとかの経験者向け
+</li><li>Scalaの機能をひたすら解説
+</li></ul>
+                </div>
+      </div><div class="content" id="slide-46"><div class="container">
+                  <p>Scala逆引きレシピ
+</p><iframe src="http://rcm-fe.amazon-adsystem.com/e/cm?t=numa08blog01-22&o=9&p=8&l=as1&asins=4798125415&ref=tf_til&fc1=000000&IS2=1&lt1=_blank&m=amazon&lc1=0000FF&bc1=000000&bg1=FFFFFF&f=ifr" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0"></iframe>
+<ul><li>逆引き形式でScalaの機能を解説
+</li><li>ある程度慣れてきたら読む
+</li><li>Kindleもあるよ
+</li></ul>
+                </div>
+      </div><div class="content" id="slide-47"><div class="container">
+                  <p>Scalaスケーラブルプログラミング第2版
+</p><iframe src="http://rcm-fe.amazon-adsystem.com/e/cm?t=numa08blog01-22&o=9&p=8&l=as1&asins=4844330845&ref=tf_til&fc1=000000&IS2=1&lt1=_blank&m=amazon&lc1=0000FF&bc1=000000&bg1=FFFFFF&f=ifr" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0"></iframe>
+<ul><li>通称「コップ」本
+</li><li>Scalaの全てを知りたいならこれ
+</li><li>最初に読む本じゃないかな</li></ul>
+                </div>
+      </div><div class="content" id="slide-48"><div class="container">
+                  <p>Play Framework 2徹底入門
+</p><iframe src="http://rcm-fe.amazon-adsystem.com/e/cm?lt1=_blank&bc1=000000&IS2=1&bg1=FFFFFF&fc1=000000&lc1=0000FF&t=numa08blog01-22&o=9&p=8&l=as4&m=amazon&f=ifr&ref=ss_til&asins=B00HFPZ0DA" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0"></iframe>
+<ul><li>JavaのPlayframeworkの本
+</li><li>テンプレートエンジン、ビルドツールとかScalaでも役立つ
+</li><li>現在唯一ｎPlay関連の和書
+</li></ul>
+                </div>
+      </div><div class="content" id="slide-49"><div class="container">
+                  <h1 id="Scala%E3%81%AE%E7%92%B0%E5%A2%83%E4%BD%9C%E3%82%8A">Scalaの環境作り</h1>
+                </div>
+      </div><div class="content" id="slide-50"><div class="container">
+                  <h2 id="Scala%E3%81%AE%E7%92%B0%E5%A2%83%E4%BD%9C%E3%82%8A">Scalaの環境作り</h2><ul><li>エディタとコンパイラだけは辛い
+</li><li>適切な開発環境を整えよう
+</li></ul>
+                </div>
+      </div><div class="content" id="slide-51"><div class="container">
+                  <iframe src="http://www.slideshare.net/slideshow/embed_code/17366271" width="427" height="356" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC;border-width:1px 1px 0;margin-bottom:5px" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="https://www.slideshare.net/okadageorge/20130320-scala" title="10分で作るScala開発環境 using vim" target="_blank">10分で作るScala開発環境 using vim</a> </strong> from <strong><a href="http://www.slideshare.net/okadageorge" target="_blank">George Okada</a></strong> </div>
+
+                </div>
+      </div><div class="content" id="slide-52"><div class="container">
+                  <h1 id="%E6%99%82%E4%BB%A3%E3%81%AFVim">時代はVim</h1>
+                </div>
+      </div><div class="content" id="slide-53"><div class="container">
+                  <h1 id=""><a  href="http://scala-ide.org/">ScalaIDE for eclipse</a></h1><ul><li>Eclipseベースの開発環境
+</li><li>JavaとScalaを同時に
+</li><li>コード補完、関数/変数の定義箇所へジャンプ
+</li><li>デバッガ
+</li></ul>
+                </div>
+      </div><div class="content" id="slide-54"><div class="container">
+                  <h1 id=""><a  href="http://www.jetbrains.com/idea/">IntelliJ IDEA</a></h1><ul><li>13からScalaサポート！
+</li><li>コード補完、クイックFix
+</li><li>VCSと連携、ビルドツールSBTサポート
+</li><li>Playframeworkをサポート
+</li></ul>
+                </div>
+      </div><div class="content" id="slide-55"><div class="container">
+                  <h1 id="sbt">sbt</h1>
+                </div>
+      </div><div class="content" id="slide-56"><div class="container">
+                  <h2 id="sbt">sbt</h2><ul><li>Scala Build Tool
+</li><li>すっごい べんりな つーる
+</li><li>ScalaとJavaのためのビルドツール
+</li></ul>
+                </div>
+      </div><div class="content" id="slide-57"><div class="container">
+                  <h2 id="sbt">sbt</h2><ul><li>参照の解決
+</li><li>テストの実行
+</li><li>各種プラグインで機能強化
+</li><li>IDEはこれをベースにプロジェクトを作る
+</li></ul>
+                </div>
+      </div><div class="content" id="slide-58"><div class="container">
+                  <h2 id="%E3%81%BE%E3%81%A8%E3%82%81">まとめ</h2><ul><li>kindleの本読むといいと思う
+</li><li>便利なIDEもあるよ
+</li><li>sbt便利</li></ul>
+                </div>
+      </div><div class="content" id="slide-59"><div class="container">
+                  <h1 id="Scala%E3%81%A8Android">ScalaとAndroid</h1>
+                </div>
+      </div><div class="content" id="slide-60"><div class="container">
+                  <h2 id="Scala%E3%81%A7Android%E3%81%AE%E9%96%8B%E7%99%BA%E3%81%A7%E3%81%8D%E3%82%8B%E3%81%AE%EF%BC%81%EF%BC%9F">ScalaでAndroidの開発できるの！？</h2><ul><li>jvmな言語だし
+</li><li>Scalaでできたら楽になる？
+</li><li>夢は夢のままがいいかもしれない・・・
+</li></ul>
+                </div>
+      </div><div class="content" id="slide-61"><div class="container">
+                  <p><a  href="http://numa08.github.io/scala_za_data/4th/numa08/#0">Scala4Androids</a>
+</p>
+                </div>
+      </div><div class="content" id="slide-62"><div class="container">
+                  <h2 id="%E3%81%9D%E3%82%8C%E3%81%8B%E3%82%89%E6%99%82%E3%81%8C%E7%B5%8C%E3%81%A3%E3%81%A6%E3%83%BB%E3%83%BB%E3%83%BB">それから時が経って・・・</h2><ul><li><a  href="http://shogogg.hatenablog.jp/entry/2013/12/06/000039">Scala + sbt-android + IntelliJ で快適Androidアプリ開発</a>
+</li><li>どうにか動くことは動くっぽい？
+</li><li>苦行感あふれる
+</li></ul>
+                </div>
+      </div><div class="content" id="slide-63"><div class="container">
+                  <h2 id="%E7%9C%9F%EF%BC%9A%E3%81%BE%E3%81%A8%E3%82%81">真：まとめ</h2><ul><li>やっぱり苦行っぽいです
+</li><li>Scaloid注目です</li></ul>
+                </div>
+      </div><div class="content" id="slide-64"><div class="container">
+                  <h1 id="%E3%83%A9%E3%82%A4%E3%83%96%E3%82%B3%E3%83%BC%E3%83%87%E3%82%A3%E3%83%B3%E3%82%B0">ライブコーディング</h1>
+                </div>
+      </div><div class="content" id="slide-65"><div class="container">
+                  <h2 id="%E3%83%A9%E3%82%A4%E3%83%96%E3%82%B3%E3%83%BC%E3%83%87%E3%82%A3%E3%83%B3%E3%82%B0">ライブコーディング</h2><ul><li>ようやくScalaのコードが出ます
+</li></ul>
+                </div>
+      </div><div class="content" id="slide-66"><div class="container">
+                  <h2 id="%E3%81%8A%E9%A1%8C">お題</h2><ul><li>新入女子社員を助けるやつ
+</li></ul>
+                </div>
+      </div><div class="content" id="slide-67"><div class="container">
+                  <h2 id="%E6%96%B0%E5%85%A5%E5%A5%B3%E5%AD%90%E7%A4%BE%E5%93%A1%E3%82%92%E5%8A%A9%E3%81%91%E3%82%8B%E3%82%84%E3%81%A4">新入女子社員を助けるやつ</h2><p><img alt=""  src="livecoding/cap.png" />
+</p>
+                </div>
+      </div><div class="content" id="slide-68"><div class="container">
+                  <h2 id="%E6%96%B0%E5%85%A5%E5%A5%B3%E5%AD%90%E7%A4%BE%E5%93%A1%E3%82%92%E5%8A%A9%E3%81%91%E3%82%8B%E3%82%84%E3%81%A4">新入女子社員を助けるやつ</h2><pre><code class="">ECサイト内の2つの異なる商品（値段は同じでも構わない）を購入し、
+その合計価格が指定の価格以内で最大になる組み合せを探してください。
+</code></pre>
+                </div>
+      </div><div class="content" id="slide-69"><div class="container">
+                  <h2 id="%E6%96%B0%E5%85%A5%E5%A5%B3%E5%AD%90%E7%A4%BE%E5%93%A1%E3%82%92%E5%8A%A9%E3%81%91%E3%82%8B%E3%82%84%E3%81%A4">新入女子社員を助けるやつ</h2><pre><code class="prettyprint lang-C">4 3　 // 商品の総数は４個、キャンペーン日数は３日
+8000 // 商品１の値段
+4000 // 商品２の値段
+9000 // 商品３の値段
+6000 // 商品４の値段
+3000 // １日目のキャンペーン設定金額
+14000 // ２日目のキャンペーン設定金額
+10000 // ３日目のキャンペーン設定金額
+</code></pre>
+                </div>
+      </div><div class="content" id="slide-70"><div class="container">
+                  <h2 id="%E6%96%B0%E5%85%A5%E5%A5%B3%E5%AD%90%E7%A4%BE%E5%93%A1%E3%82%92%E5%8A%A9%E3%81%91%E3%82%8B%E3%82%84%E3%81%A4">新入女子社員を助けるやつ</h2><pre><code class="prettyprint lang-c">0 // １日目のキャンペーン設定金額(3000)
+//に最も近い組み合せが無い場合0を出力
+14000 // ２日目のキャンペーン設定金額(14000)
+//に最も近い組み合せの合計金額
+10000 // ３日目のキャンペーン設定金額(10000)
+//に最も近い組み合せの合計金額
+</code></pre>
+                </div>
+      </div><div class="content" id="slide-71"><div class="container">
+                  <h1 id="%E3%83%A9%E3%82%A4%E3%83%96%E3%82%B3%E3%83%BC%E3%83%87%E3%82%A3%E3%83%B3%E3%82%B0">ライブコーディング</h1>
+                </div>
+      </div><div class="content" id="slide-72"><div class="container">
+                  
+                </div>
+      </div><div class="content" id="slide-73"><div class="container">
+                  <h2 id="%E8%A9%B3%E7%B4%B0%E3%81%AA%E8%A7%A3%E8%AA%AC%E3%81%AA%E3%81%A9%E3%81%AF%E3%81%93%E3%81%A1%E3%82%89">詳細な解説などはこちら</h2><p><a  href="http://numa08.hateblo.jp/entry/2013/12/07/231305">#新宿Scala座　で新入女子社員を救ってきた</a></p>
+                </div>
+      </div>
+          </div>
+        </div>
+        <script type="text/javascript" src="js/custom.js?1389425126833"></script>
+      </body>
+    </html>
