@@ -13,7 +13,6 @@
 ## お題
  
  - 新入女子社員を助けるやつ
- - DSLをやってみる
 
 !SLIDE
 
@@ -72,44 +71,4 @@ ECサイト内の2つの異なる商品（値段は同じでも構わない）�
 
 !SLIDE
 
-## ScalaでDSLを作る
-
- - DSL:ドメイン固有言語
- - 特定の用途に特化した言語
-     - SQL
-     - XML...
-
-!SLIDE
-
-## ScalaでDSLを作る
-
- - Scalaの上に言語を作る
-     - パーサを実装しなくて良くなる
-     - 設定ファイルの記述とかに便利
-
-!SLIDE
-
-## ScalaでDSLを作る
-
-
-```Scala
-
-val dejiko = new Kawaii {
-	wear("Cat Ear Cat")
-	wear("Maid wear")
-	wear("Cat Globe")
-	wear("Cat tail")
-	say("Nyo")
-	"Beam" from "Me"
-	fullName = "Di Gi Charat Chocola"
-	name = "dejiko"	
-}
-```
-
-
-!SLIDE
-
-#ライブコーディング
-
-!SLIDE
-	
+[#新宿Scala座　で新入女子社員を救ってきた](http://numa08.hateblo.jp/entry/2013/12/07/231305)
