@@ -1,6 +1,12 @@
 {
   "title": "gariben_3rd",
   "sections": [
-    "hello"
+    "introduct",
+    "why_scala"
+    "what_scala",
+    "what_able_to",
+    "first_scala",
+    "android",
+    "livecoding",
   ]
 }
