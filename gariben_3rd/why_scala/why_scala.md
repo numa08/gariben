@@ -1,6 +1,6 @@
 !SLIDE
 
-# なぜScalaを学ぶの？
+# なぜScalaなのか？
 
 !SLIDE
 
