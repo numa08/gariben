@@ -6,8 +6,7 @@
     "what_scala",
     "what_able_to",
     "first_scala",
-    "livecoding",
     "android",
-    "controll_structure"
+    "livecoding",
   ]
 }
